@@ -1,0 +1,99 @@
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(5, 155, 105);
+}
+
+nav {
+    text-align-last: right;
+}
+
+#navegador ul li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#navegador ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#navegador ul li a:hover {
+    background-color: lightslategray;
+    padding: 10px;    
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 25px;
+    font-size: 40px;
+}
+
+.boton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    text-align: right;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgb(55, 155, 130);
+    cursor: pointer;
+    margin-left: 45%;
+}
+
+.boton a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.boton:hover{
+    background: rgb(61, 228, 172);
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textouno {
+    position: absolute;
+    width: 50%;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.textodos {
+    margin-top: 3.7%;
+    margin-left: 50%;
+    text-align: left;
+}
+
+.textodos li {
+    list-style: none;
+}
+
+/*FOOTER*/
+
+.botones {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    color: white;
+    margin-left: 20px;
+}

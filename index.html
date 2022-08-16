@@ -4,10 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer HTML</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/font.css">
+    <link rel="stylesheet" href="/estilosdef.css">
+    <title>Mi perfil</title>
 </head>
 <body>
-    <h1>Hola Mundo!</h1>
+
+    <nav id="navegador">
+        <ul>
+            <li><a href="#sobremi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencias">Experiencias</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <h1>Florencia Jazmín Angenelo</h1>
+
+    <button class="botondescarga"><a href="#">Descargar CV</a></button>
     
+    <div id="sobremi">
+    
+        <h3>Sobre mí</h3>
+        <p>Hola! Soy Florencia Angenelo. Actualmente me estoy capacitando para poder ser Desarrolladora Web Full Stack.</p>
+        <p>Esta es mi creación de un Curricullum Vitae para implementar los conocimientos que adquiero a medida que avanza mi curso.</p>
+
+        <br><br><br>
+    </div>
+
+    <div id="habilidades">
+        <h3>Habilidades</h3>
+    
+    <div class="listauno">
+        <ul>
+            <li>Paquete Office</li>
+            <li>Dominio de los lenguajes informáticos</li>
+            <li>Capacidad de trabajar en equipo</li>
+            <li>Sentido de la responsabilidad</li>
+            <li>Confianza</li>
+            <li>Conocimiento y respeto de las normas</li>
+            <li>Capacidad de actualizar los conocimientos</li>
+            <li>Sentido de las relaciones con los clientes</li>
+            <li>Iniciativa</li>
+        </ul>
+    </div>
+    <div class="listados">
+        <ul>        
+            <li>Creatividad</li>
+            <li>Gestión del estrés y presión</li>
+            <li>Capacidad de análisis</li>
+            <li>Autonomía</li>
+            <li>Empatía</li>
+            <li>Capacidad de escucha</li>
+            <li>Paciencia</li>
+            <li>Autocontrol</li>
+            <li>Positividad</li>
+        </ul>
+    </div>
+        <br> <br> <br>
+
+    </div>
+
+    <div id="experiencias">
+        <h3>Experiencias</h3>
+
+        <p>Actualmente cuento con experiencia en Atención al Cliente de forma presencial y virtual. <br>
+            Trabajo para el Grupo Provincia en Provincia ART. En la misma gestionamos pedido, consultas o <br> reclamos relacionado a prestaciones médicas y dinerarias. 
+            <br>Recibo contacto de trabajadores y/o clientes a través de WhatsApp, Chat WEB y por llamadas telefónicas. <br> <br> <br> <br>
+            Mi acercamiento al mundo IT es reciente por lo cual no tengo, aún, experiencia laboral. 
+            <br> Me capacito de forma constante para no poder la práctica de los talleres o cursos presenciados. <br> Recientemente me capacité en Front End en Educación IT culminando la etapa inicial. 
+        </p>
+    </div>
+       
+    <div id= "portfolio">
+        <h3>Portfolio</h3>
+
+
+    </div>
+
+    <div id="contacto">
+        <h3>Contacto</h3>
+
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                  <label for="name">Nombre:</label> <br>
+                  <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                  <label for="mail"> Correo electrónico:</label> <br>
+                  <input type="email" id="mail" name="user_mail" placeholder="tumail@correo.com">
+                </li>
+                <li>
+                  <label for="msg">Mensaje:</label> <br>
+                  <textarea id="msg" name="user_message" placeholder="Escribe tu mensaje aquí"></textarea>
+                </li>
+               </ul>
+               <li class="button">
+                <button type="submit">Envíe su mensaje</button>
+              </li>
+              
+        </form>
+    </div>
+
+        <footer>
+
+            <div class="botones">
+                <a href="#" class="icon icon-github" target="_blank"></a>
+                <a href="#" class="icon icon-linkedin2" target="_blank"></a>
+                <a href="#" class="icon icon-envelop" target="_blank"></a>
+                <a href="#" class="icon icon-whatsapp" target="_blank"></a>
+
+            </div>
+
+        </footer>
 </body>
 </html>
